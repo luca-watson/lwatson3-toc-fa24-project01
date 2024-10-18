@@ -1,0 +1,60 @@
+Output from DumbPartite.py
+Input in format: # of subsets,# of vertices in subset 1, # of vertices in subset 2,...
+
+Input:	2,4,4
+
+Vertices:	8
+Perfect matching found:	[('A1', 'B1'), ('A2', 'B2'), ('A3', 'B3'), ('A4', 'B4')]
+Run time: 0.0002300739288330078 seconds
+
+Input:	5,2,3,3,3,1
+
+Vertices:	12
+Perfect matching found:	[('A1', 'B1'), ('A2', 'B2'), ('B3', 'C1'), ('C2', 'D1'), ('C3', 'D2'), ('D3', 'E1')]
+Run time: 0.0019390583038330078 seconds
+
+Input:	3,1,6,5
+
+Vertices:	12
+Perfect matching found:	[('A1', 'B1'), ('B2', 'C'), ('B3', 'C2'), ('B4', 'C3'), ('B5', 'C4'), ('B6', 'C5')]
+Run time: 0.00785207748413086 seconds
+
+Input:	6,2,4,4,4,3,1
+
+Vertices:	18
+Perfect matching found:	[('A1', 'B1'), ('A2', 'B2'), ('B3', 'C1'), ('B4', 'C2'), ('C3', 'D1'), ('C4', 'D2'), ('D3', 'E1'), ('D4', 'E2'), ('E3', 'F1')]
+Run time: 0.6860401630401611 seconds
+
+Input:  7,2,3,4,3,5,6,3
+
+Vertices:	26
+No perfect matching found
+Run time: 55.4824578363947284 seconds
+
+Input:	3,3,2,1
+
+Vertices:	6
+No perfect matching found
+Run time: 2.09808349609375e-05 seconds
+
+Input:	4,2,2,5,4
+
+Vertices:	13
+No perfect matching found
+Run time: 0.006788015365600586 seconds
+
+Input:	5,3,2,3,4,5
+
+Vertices:	17
+No perfect matching found
+Run time: 0.05885791778564453 seconds
+
+Input:	6,3,3,4,3,4,3
+
+Vertices:	20
+No perfect matching found
+Run time: 1.7165119647979736 seconds
+
+Input: 7,3,4,3,4,4,4,5
+Vertices:   27
+Run time: 75.3474245762832463 seconds
